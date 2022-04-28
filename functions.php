@@ -85,3 +85,22 @@ function philosophy_assets()
     );
 }
 add_action('wp_enqueue_scripts', 'philosophy_assets');
+
+// for pagination
+function philosophy_pagination()
+{
+    global $wp_query;
+    $pagelinks = paginate_links(
+        array(
+            'current' => max(1, get_query_var('paged')),
+            'total' => $wp_query->max_num_pages,
+            'type' => 'list',
+            'mid_size' => 3
+        )
+    );
+    $pagelinks = str_replace('page-numbers', 'pgn__num', $pagelinks);
+    $pagelinks = str_replace("<ul class='pgn__num'", '<ul', $pagelinks);
+    $pagelinks = str_replace('class="next pgn__num"', 'class="pgn__next"', $pagelinks);
+    $pagelinks = str_replace('class="prev pgn__num"', 'class="pgn__prev"', $pagelinks);
+    echo $pagelinks;
+}
