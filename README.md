@@ -3,12 +3,11 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Wordpress Philosophy theme</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 
 </div>
@@ -45,7 +44,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need to have wordpress installed
 
-### Installing
+### Installing <a name = "installing"></a>
 
 - Clone the repo from github or download zip
 
@@ -53,42 +52,31 @@ You need to have wordpress installed
 git clone https://github.com/mnm-54/wp-philosophy-mnm.git
 ```
 
-And activate the theme from admin dashboard.
+- put the folder in wordpress theme directory
+- And activate the theme from admin dashboard.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
-Explain how to run the automated tests for this system.
+- work on progress
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+- work on progress
 
 ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
+- for learning purpose
+- basic wordpress theme
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+- just put the philosophy theme folder in active wordpress theme directory or See [Installing](#installing)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [PHP]
+- [CSS]
+- [JavaScript]
 
 ## ✍️ Authors <a name = "authors"></a>
 
